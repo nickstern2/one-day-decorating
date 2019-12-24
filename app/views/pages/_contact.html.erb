@@ -1,0 +1,30 @@
+<div id="contact-wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+            <h2 class="project-text" style=" color: #f7efef;
+                text-align: center;
+                margin-bottom: 10px; padding-top: 15px;">Contact</h2>
+                <p style="color: #f7efef; text-align: center;">Have a question or want to work together?</p>
+                <%#= render "posts/form" %>
+                <%#= redirect_to :controller => "posts", :action => "form" %>
+        <div class="container contact-container">
+              <form action="action_page.php">
+
+                <label for="name">First Name</label>
+                <input type="text" id="name" name="firstname" placeholder="Your name..">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input class="btn btn-primary" type="submit" value="Submit">
+
+              </form>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
