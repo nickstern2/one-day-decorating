@@ -7,8 +7,8 @@ class PagesController < ApplicationController
   def before_after
   end
 
-  def process
-  end
+  # def process
+  # end
 
   def about
   end
