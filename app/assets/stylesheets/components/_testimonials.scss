@@ -1,12 +1,27 @@
+.title-heading {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 22px;
+}
+
 .testimonial-card {
-  border-radius: 25px;
-  height: 300px;
+  border-radius: 10px;
+  height: 250px;
+  background-color: #ddd9d9;
 }
 
 .testimonial-text {
-  padding:15px
+  padding:15px;
+  font-size: 13px;
 }
 .testimonial-title {
   text-align: center;
   margin: 10px 0px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.testimonial-header {
+  margin-top: 15px;
 }
